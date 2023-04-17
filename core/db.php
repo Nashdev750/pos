@@ -14,7 +14,7 @@ class db{
     // private $con = null;
 
     public function __construct(){
-        $this->db = $_SESSION['user']['dbname'];
+        // $this->db = $_SESSION['user']['dbname'];
        
         $str = "mysql:host=".$this->host.";dbname=".$this->db;
         try{
