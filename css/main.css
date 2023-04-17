@@ -1,0 +1,391 @@
+body,
+.input,
+.footer,
+.auth-form {
+    background-color: #1A1F3A !important;
+}
+
+[data-nav-headerbg="color_3"][data-theme-version="dark"] .nav-header,
+[data-nav-headerbg="color_3"] .nav-header {
+    /* background-color: #10ca93 !important; */
+}
+
+.btn-info,
+.btn-success {
+    background-color: #10ca93 !important;
+}
+
+.deznav .metismenu>li.mm-active>a {
+    color: #10ca93 !important;
+}
+
+.deznav .metismenu>li:hover>a,
+.deznav .metismenu>li:focus>a {
+    color: #10ca93 !important;
+}
+
+.deznav .metismenu ul a:hover,
+.deznav .metismenu ul a:focus,
+.deznav .metismenu ul a.mm-active {
+    text-decoration: none;
+    color: #10ca93 !important;
+}
+
+.deznav .metismenu>li.mm-active>a g [fill] {
+    fill: #10ca93 !important;
+}
+
+.deznav .metismenu>li:hover>a,
+.deznav .metismenu>li:focus>a {
+    fill: #10ca93 !important;
+}
+
+.pulse-css {
+    background-color: #10ca93 !important;
+    ;
+}
+
+.pulse-css:after,
+.pulse-css:before {
+    background-color: #10ca93 !important;
+}
+
+svg {
+    color: whitesmoke !important;
+}
+
+.deznav svg {
+    color: whitesmoke !important;
+}
+
+.deznav a:hover svg {
+    color: #10ca93 !important;
+}
+
+.footer .copyright p {
+    color: white;
+    font-weight: bold;
+}
+
+.table tbody tr td {
+    vertical-align: middle;
+    border-color: #333A54;
+    color: #89879f;
+    ;
+}
+
+.bootstrap-select .btn {
+    border: none !important;
+    background-color: #1A1F3A !important;
+    padding: 0.532rem 1rem;
+    font-weight: 400;
+    color: white !important;
+}
+
+.bootstrap-select:not(.input-group-btn),
+.bootstrap-select[class*=col-] {
+    float: none;
+    display: inline-block;
+    margin-left: 0;
+    background-color: #1A1F3A !important;
+}
+
+.header-right .notification_dropdown .nav-link {
+    color: white;
+    background: #1A1F3A;
+}
+
+strong {
+    color: white !important;
+}
+
+.header-left input {
+    background-color: #1A1F3A !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+input,
+select,
+textarea {
+    background-color: #1A1F3A !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.form-control {
+    border: none;
+}
+
+.card,
+.deznav,
+.header {
+    background-color: #1E2746;
+}
+
+.card-title,
+strong,
+.mb-0,
+.mb-1,
+.mb-3 {
+    color: white;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    margin: 0 4px !important;
+}
+
+.pagging {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.bb button {
+    padding: 7px 10px;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+}
+
+.bb span {
+    background-color: #10ca93 !important;
+    padding: 11px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+tr td.plus::before {
+    background-color: #10ca93 !important;
+}
+
+.bb button:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.pop {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    z-index: 994;
+    background-color: rgba(0, 0, 0, 0.418);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    transition: all .3s ease;
+    opacity: 0;
+    pointer-events: none;
+    overflow-y: auto;
+}
+
+.pop::-webkit-scrollbar {
+    display: none;
+}
+
+.popbody {
+    margin-top: 10px;
+    background-color: #1E2746;
+    border-radius: 4px;
+    padding: 0px;
+    width: 70%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.459);
+    transition: all .6s ease;
+    transform: translateY(-100vh);
+    z-index: 999;
+    opacity: 0;
+}
+
+.sh {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.sho {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.ordered td {
+    color: #10ca93 !important;
+}
+
+.logout {
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+}
+
+.red td {
+    color: tomato !important;
+}
+
+td {
+    text-align: left !important;
+}
+
+i {
+    color: whitesmoke !important;
+}
+
+.tabs {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tabs div {
+    padding: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.tabs .active::before {
+    content: '';
+    position: absolute;
+    background-color: #10ca93 !important;
+    padding: 1px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.tab .col-md-12 {
+    display: none;
+}
+
+.tab .act {
+    display: inline !important;
+}
+
+td,
+th {
+    border-right: .5px solid #171d33b6 !important
+}
+
+th {
+    border-top: none !important
+}
+
+.errorpop {
+    position: fixed;
+    z-index: 999;
+    background: #F5D2D2;
+    font-size: 17px;
+    color: red;
+    padding: 20px;
+    border-radius: 4px;
+    top: 10vh;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.erroract {
+    display: flex;
+}
+
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_processing,
+.dataTables_wrapper .dataTables_paginate {
+    color: #fff;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 1.5em;
+    padding: .5em 1em;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    *cursor: hand;
+    color: #333 !important;
+    border: 1px solid transparent;
+    color: whitesmoke !important;
+    border-radius: 2px;
+}
+
+th {
+    text-align: left !important;
+}
+
+tr td.plus {
+    position: relative;
+    cursor: pointer;
+}
+
+.skiptranslate,
+#google_translate_element {
+    display: none !important;
+}
+
+tr td.plus::before {
+    top: 12px;
+    left: 4px;
+    height: 14px;
+    width: 14px;
+    display: block;
+    position: absolute;
+    color: white;
+    border: 2px solid white;
+    border-radius: 14px;
+    box-shadow: 0 0 3px #444;
+    box-sizing: content-box;
+    text-align: center;
+    text-indent: 0 !important;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 14px;
+    content: '+';
+    background-color: #0275d8;
+}
+
+tr td.active::before {
+    content: '-';
+    background-color: red;
+}
+
+.red {
+    color: tomato !important;
+}
+
+.red a {
+    color: tomato !important;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.yellow a {
+    color: yellow;
+}
+
+.green {
+    color: #10ca93;
+}
+
+.green a {
+    color: #10ca93;
+}
+
+@media(max-width:768px) {
+    .popbody {
+        width: 98%;
+    }
+}
