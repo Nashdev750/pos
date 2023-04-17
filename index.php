@@ -4,11 +4,11 @@ if(!isset($_SESSION['user'])){
     header("location:login");
     
 }
-$expr = strtotime($_SESSION['user']['expiry']);
-$now = strtotime(date('Y-m-d'));
-if($now > $expr){
-    header("location:subscription");
-}
+// $expr = strtotime($_SESSION['user']['expiry']);
+// $now = strtotime(date('Y-m-d'));
+// if($now > $expr){
+//     header("location:subscription");
+// }
 $_SESSION['card']= array();
 $_SESSION['post']= array();
 $_SESSION['deposite']= array();
