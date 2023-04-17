@@ -3,9 +3,9 @@
 
 class opendb{
     private $host = "localhost";
-    private $user = "juyyotit_pos";
-    private $pass = "{BrO%Wq,C*}T";
-    private $db = "juyyotit_pos";
+    private $user = "pos";
+    private $pass = "Nashdev@098";
+    private $db = "pos";
     private $con = null;
     // private $host = "localhost";
     // private $user = "root";
