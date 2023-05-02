@@ -2,16 +2,16 @@
 
 
 class opendb{
-    private $host = "localhost";
-    private $user = "pos";
-    private $pass = "Nashdev@098";
-    private $db = "pos";
-    private $con = null;
     // private $host = "localhost";
-    // private $user = "root";
-    // private $pass = "";
+    // private $user = "pos";
+    // private $pass = "Nashdev@098";
     // private $db = "pos";
     // private $con = null;
+    private $host = "localhost";
+    private $user = "root";
+    private $pass = "";
+    private $db = "pos";
+    private $con = null;
 
     public function __construct(){
        
