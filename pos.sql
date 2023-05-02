@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 17, 2023 at 04:24 PM
+-- Generation Time: May 02, 2023 at 10:36 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -133,6 +133,7 @@ CREATE TABLE `pos` (
 
 CREATE TABLE `post` (
   `id` int(50) NOT NULL,
+  `cid` int(50) DEFAULT NULL,
   `orderid` text NOT NULL,
   `post` text NOT NULL,
   `posttype` text NOT NULL,
